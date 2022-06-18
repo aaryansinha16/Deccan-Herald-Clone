@@ -1,0 +1,406 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* *******top deccan section****** */
+
+#pizad {
+    height: 300px;    
+    padding: 30px 20px;    
+    /* margin-top: 50px; */
+
+}
+
+#desp {
+    font-size: 15px;    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#rh {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;            
+    background-color: #f6f6f6;
+    padding: 30px 0px 30px 0px;
+    margin-top: 50px;
+}
+
+#rh>h2 {
+    font-size: 24px;
+    margin-top: -5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#card>h3{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#box {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+#card {
+    height: 320px;
+    background-color: #e5f3ff;
+    padding: 30px 20px;
+    position: relative;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+#pizad{
+    width: 100%;
+    height: 90%;
+    /* background-color: #e5f3ff; */
+    padding: 20px
+    /* position: relative; */
+    /* margin-top: 50px; */
+}
+
+#card>h3+p {
+    margin-top: 20px;
+    /* margin-bottom: 100px; */
+}
+
+
+
+#card3 {
+    position:absolute;
+    bottom: 30px;
+    display: none;
+    
+}
+#card2 {
+    position:absolute;
+    bottom: 30px;
+    
+}
+
+button {
+    padding: 10px 30px;
+    margin-right: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+input {
+    padding: 10px 0 10px 10px;            
+    background-color: white;
+    border: none;
+    color: rgb(32, 31, 31);
+
+}
+
+button+button {
+    background-color: white;
+    color: black;
+    /* color: #54e221; */
+}
+
+
+/* *******news section******* */
+
+#news::-webkit-scrollbar {
+    display: none;
+  }
+
+#news{
+    /* position: fixed; */
+    width: 80%;
+    height: 550px;  
+    opacity: 1;        
+    background-color: white;
+    overflow-y: scroll;
+    position: relative;
+    position: absolute;           
+    top: 250px;
+    left: 10%;
+    right: 10%;
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+   
+}
+
+#newsdiv {
+    width: 80%;
+    height: 200px;
+    display: flex;            
+    margin: 0px auto 30px ;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    
+
+    
+
+    
+}
+
+#top {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+#top>a {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: #0087a8;
+    
+
+}
+
+#top>h2 {
+    
+    color: #0087a8;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:700;
+    margin-left: 150px;
+    
+}
+
+#newsimg{
+    width: 300px;
+    height: 100%;
+}
+
+#ndetails{
+    padding: 10px;
+}
+
+#ndetails>h3,p{
+    padding: 0;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* *****solical ******* */
+
+#social {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    color: #0087a8;
+    font-size: 20px;
+}
+
+@media all and (min-width: 451px) and (max-width: 750px){
+
+    #box {        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;       
+    
+    }
+
+    button {
+        padding: 5px 10px;
+        margin-right: 20px;
+        
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+    }
+
+    #newsdiv {
+        width: 95%;
+        height: auto;
+        display: flex;  
+        flex-direction: column;          
+        margin: 0px auto 30px ;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        
+    }
+
+    #newsimg{
+        width: 40%;
+        height: 40%;
+    }
+
+    #ndetails>h3{
+        padding: 0;
+        margin-top: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    #top {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+      
+    }
+    
+    #top>a {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 10px;
+        
+        
+    
+    }
+    
+    #top>h2 {
+        
+        color: #0087a8;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:700;
+        margin-left: 15%;
+        
+
+      
+        
+    }
+
+    #top>img {
+        width: 50px;
+    }
+
+    /* #social {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 200px;
+        color: #0087a8;
+        font-size: 20px;
+    } */
+
+}
+
+
+
+@media all and (min-width: 100px) and (max-width: 451px){
+
+    #box {         
+        grid-template-columns: repeat(1, 1fr);      
+         
+    }
+
+    #card {
+        height: 300px;        
+        padding: 10px 15px;
+        
+        margin-bottom: -50px;
+    }
+
+    #inp{
+        /* width: 40%; */
+        font-size: 14px;
+        margin-right: -15px;
+
+    }  
+
+    #newsdiv {
+        width: 95%;
+        height: auto;
+        display: flex;  
+        flex-direction: column;          
+        margin: 0px auto 30px ;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        
+    }
+
+    #newsimg{
+        width: 100%;
+        height: 40%;
+    }
+
+    #ndetails>h3{
+        padding: 0;
+        margin-top: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    #top {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+      
+    }
+    
+    #top>a {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 10px;
+        
+        
+    
+    }
+    
+    #top>h2 {
+        
+        color: #0087a8;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:700;
+        margin-left: 10%;  
+        margin-top: -20px;    
+ 
+    }
+
+    #top>img {
+        width: 50px;
+    }
+
+    #rh{
+        height: 80px;
+        text-align: center;
+        
+    }
+
+    #rh>h2 {
+        font-size: 17px;
+        /* margin-top: -10px; */
+       
+
+    }
+
+    #news{
+        /* position: fixed; */
+        
+        position: relative;
+        position: absolute;           
+        top: 250px;
+        left: 10%;
+        right: 10%;   
+    
+}
+
+
+
+
