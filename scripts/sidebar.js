@@ -42,16 +42,17 @@ $('.feat-btn').click(function(){
   });
 
 
-  var data=document.querySelector("body")
+  // var data=document.querySelector("body")
+  var trsld= document.getElementById('rslidshow');
 var x= document.querySelector(".cancelbtn");
 x.style.cursor="pointer";
 
 
 x.addEventListener("click",function(){
-   deleteItem(data)
+   deleteItem()
 })
-function deleteItem(data){
+function deleteItem(){
  
-data.remove();
+trsld.style.display="none"
  
 }

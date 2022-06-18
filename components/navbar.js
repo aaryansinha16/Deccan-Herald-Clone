@@ -55,7 +55,7 @@ function navbar() {
         
         <div id="dash-logo">
             <span id="emptyfirst"></span>
-            <span class="material-symbols-outlined">
+            <span id="threeClick" class="material-symbols-outlined">
                 menu
                 </span>
         </div>
