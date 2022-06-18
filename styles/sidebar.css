@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.side-navbar{
+    color: rgb(255, 255, 255);
+position: fixed;
+left: 0;
+background: #0087a8;
+height: 100%;
+width: 300px;
+z-index: 100;
+overflow: auto;
+
+
+padding: 10px 0; 
+transition: all cubic-bezier(.39,.47,.29,.81) .4s;
+}
+.text{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-left: 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  
+}
+.Sidebarlist{
+   background-color: #0087a8;
+   height:100%;
+   width: 100%;
+   list-style: none; 
+}
+.cancelbtn{
+    background-color: #0087a8;
+    width:300px
+}
+.cancelbtn>img{
+    padding-left: 40px;
+    height: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 25px;
+    
+    
+    
+}
+#feat-show.show{
+    display:block;
+}
+#feat-show1.show{
+    display:block;
+}
+#feat-show2.show{
+    display:block;
+}
+#feat-show3.show{
+    display:block;
+}
+#feat-show4.show{
+    display:block;
+}
+#feat-show5.show{
+    display:block;
+}
+#feat-show6.show{
+    display:block;
+}
+#feat-show7.show{
+    display:block;
+}
+#feat-show8.show{
+    display:block;
+}
+#feat-show9.show{
+    display:block;
+}
+#feat-show10.show{
+    display:block;
+}
+#feat-show11.show{
+    display:block;
+}
+#feat-show12.show{
+    display:block;
+}
+#feat-show13.show{
+    display:block;
+}
+
+.navli{
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.navli>a{
+    position: relative;
+color: white;
+text-decoration: none;
+font-size: 16px;
+padding-left: 40px;
+font-weight: 600;
+display: block;
+width:100%;
+
+}
+.navli>a:hover{
+    color:cyan;
+    border-left-color: rgb(12, 13, 13);
+
+}
+.under{
+    
+    list-style-type: none;
+    position: static;
+    display: none;
+}
+.under-under{
+    font-size: 16px;
+    font-family: 'Poppins' ,sans-serif;
+    line-height: 35px;
+    border-bottom: none;
+    background-color: #027b92;
+   padding-left: 40px;
+    
+}
+.under-under:hover{
+    color: cyan;
+}
+.navli>a>span{
+    
+    position: absolute;
+    top:50%;
+    right:20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    transition: transform 0.4s;
+}
+.navli>a:hover span{
+    transform: translateY(-50%) rotate(-180deg);
+    color: cyan;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
