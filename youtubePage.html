@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./styles/youtube.css">
+
+   <link rel="stylesheet" href="styles/navbarKA.css" />
+    <link rel="stylesheet" href="styles/footer.css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  />
+</head>
+<body onload="livedate()" >
+
+
+ <!-- header start -->
+
+ <header id="homepage-header"></header>
+
+ <!-- header end -->
+
+ <!-- navbar start -->
+
+ <nav class="homepage-navbar">
+   <div class="navbar-container"></div>
+
+   <div class="navbar-responsive">
+     <div id="superscript-container">
+       <div>NEWS</div>
+       <div>Newsletters</div>
+     </div>
+     <div id="dh-logo-res">
+       <img
+         src="https://www.haptik.ai/hubfs/News%20and%20Media%20Section/Deccan%20herald-logo.png"
+         alt=""
+       />
+     </div>
+     <div id="search-box">
+       <span class="material-symbols-outlined"> search </span>
+       <div class="submenu-search">
+         <input type="text" placeholder="What are you looking for?" />
+         <button id="search-button">Search</button>
+       </div>
+     </div>
+   </div>
+ </nav>
+
+ <div id="inbrief"></div>
+ <!-- navbar end -->
+
+
+    <div id="main">
+
+        <div id="heading">
+         
+            <h2 id="dh">DH Videos</h2>
+          
+           <p><a href="#latest">LATEST VIDEO</a></p>
+           
+           <p><a href="#bengaluru">BENGALURU</a></p>
+           
+           <p><a href="#karnataka">KARNATAKA</a></p>
+           
+           <p><a href="#like">LIKE</a></p>
+      
+          </div>
+          <hr id="line">
+      
+      
+          <h3 id="latest">LATEST VIDEOS</h3>
+          <div id="container"></div>
+      
+          <h3 id="bengaluru">BENGALURU</h3>
+          <div id="container2"></div>
+      
+          <h3 id="karnataka">KARNATAKA</h3>
+          <div id="container3"></div>
+      
+          <h3 id="people">PEOPLE</h3>
+          <div id="container4"></div>
+      
+          <h3 id="like">YOU MAY LIKE</h3>
+          <div id="container5"></div>
+
+    </div>
+   
+  
+<footer>
+
+</footer>
+</body>
+<script type="module">
+
+
+ // navbar
+      
+ import { header, navbar, inbrief } from "./components/navbar.js";
+      
+      var homepageheader = document.getElementById("homepage-header");
+      homepageheader.innerHTML = header();
+      
+      var homenavbar = document.querySelector(".navbar-container");
+      homenavbar.innerHTML = navbar();
+      
+      var homeinbrief = document.getElementById("inbrief");
+      homeinbrief.innerHTML = inbrief();
+
+      //Navbar ends
+
+
+      import footer from "./components/footer.js"
+      
+      document.querySelector("footer").innerHTML = footer
+
+</script>
+</html>
+<script src="./scripts/youtubeVideo.js"></script>
+<script src="./scripts/scrollnlivedate.js"></script>

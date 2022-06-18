@@ -1,0 +1,254 @@
+body{
+    font-family: sans-serif;
+}
+
+.border{
+    border: none;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6;
+    
+    }
+    
+    #container2{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(1,auto);
+    width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6;
+   
+    }
+    
+    #container3{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(1,auto);
+    width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6;
+    }
+    
+    #container4{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(1,auto);
+    width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6;
+    }
+    
+    #container5{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto;
+    width:100%;
+    gap:20px;
+    margin: auto;
+    background-color: #f6f6f6;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    justify-content: center;
+    /* padding-left: 180px;
+    padding-right: 180px; */
+    /* text-align: center; */
+    }
+    
+    #latest{
+       margin-left: 140px;
+       margin-top: 50px;
+      
+    }
+    
+    #bengaluru{
+       margin-left: 140px;
+       margin-top: 70px;
+    }
+    
+    #karnataka{
+       margin-left: 140px;
+       margin-top: 50px;
+    }
+    
+    #people{
+       margin-left: 140px;
+       margin-top: 50px;
+    }
+    
+    #like{
+       margin-left: 140px;
+       margin-top: 50px;
+    }
+     
+    #heading{
+        display: flex;
+       gap:40px;
+       margin-left: 150px;
+       text-align: center; 
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: start;
+   
+    margin-top: 100px;
+    
+    }
+    #main{
+      margin: auto;
+      width: 95%;
+      /* margin-top: 50px; */
+    }
+
+    #heading a{
+      text-decoration: none;
+       font-size: 15px;
+       color:black;
+    }
+    
+    
+    #dh{
+        background-color:#ee9e18;
+        padding: 20px 40px 20px 40px;
+        color: white;
+
+    }
+    
+    #line{
+        width:80%;
+        color: grey;
+       margin-top: -20px;
+       margin: auto;
+    }
+    
+    @media all and (min-width: 100px) and (max-width: 750px) {
+        #container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(4,auto);
+    /* width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6; */
+    
+    }
+    
+    #container2{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    /* width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6; */
+    }
+    
+    #container3{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    /* width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6; */
+    }
+    
+    #container4{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    /* width:90%;
+    gap:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f6f6; */
+    }
+    
+    #container5{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(5,auto);
+    /* width:90%;
+    gap:20px;
+    margin: auto;
+    background-color: #f6f6f6; */
+    
+    /* text-align: center; */
+    }
+    
+    
+    latest{
+       margin-left: 10px;
+       /* margin-top: 50px;
+       */
+    }
+    
+    #bengaluru{
+       margin-left: 10px;
+       /* margin-top: 70px; */
+    }
+    
+    #karnataka{
+       margin-left: 10px;
+       /* margin-top: 50px; */
+    }
+    
+    #people{
+       margin-left: 140px;
+       /* margin-top: 50px; */
+    }
+    
+    #like{
+       margin-left: 140px;
+       /* margin-top: 50px; */
+    }
+     
+    #heading{
+        display: flex;
+       /* gap:40px;
+       margin-left: 10px;
+       text-align: center; 
+    justify-content: center;
+    align-items: center;
+    justify-items: start; */
+    width:20%;
+    margin: auto;
+    /* margin-left: -530px; */
+    
+    }
+    a{
+      /* text-decoration: none;
+       font-size: 15px;
+       color:black; */
+       width:20%;
+    }
+    
+    
+    #dh{
+        background-color:#ee9e18;
+        /* padding: 20px 40px 20px 40px;
+        color: white; */
+        margin-left: 100px;
+    }
+    
+    #line{
+        width:80%;
+        color: grey;
+       margin-top: 20px;
+    }
+    }

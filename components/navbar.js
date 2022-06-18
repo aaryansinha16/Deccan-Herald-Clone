@@ -176,7 +176,7 @@ function navbar() {
             <li><a href="">Brandspot</a> 
             </li>
 
-            <li id="new-newsletter-superscript"><a href="./newLetter.html">
+            <li id="new-newsletter-superscript"><a href="./newsLetter.html">
                 <div id="superscript-container">
                 <div>NEWS</div>
                 <div>Newsletters</div>
