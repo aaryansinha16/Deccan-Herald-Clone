@@ -1,0 +1,1042 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins&family=Roboto&family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#homepage-header {
+  margin: auto;
+  text-align: center;
+  width: 1200px;
+  height: 170px;
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 10px;
+  display: flex;
+  position: relative;
+  /* border: 2px solid black; */
+}
+
+#deccan-herald-header-logo {
+  width: 150px;
+  height: 150px;
+ 
+  /* border: 2px solid green; */
+}
+
+#header-banner-div {
+  width: 100%;
+  height: 100%;
+  /* border: 3px solid brown; */
+  text-align: center;
+  font-weight: bold;
+  color: rgb(92, 90, 90);
+}
+
+#header-banner {
+  width: 98%;
+  height: 120px;
+  border-radius: 5px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  /* border: 2px solid yellow; */
+}
+
+#header-small-text {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  margin-bottom: 5px;
+  
+  /* border: 2px solid red; */
+}
+
+#date-container {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+}
+
+#date-container > div > a {
+  text-decoration: none;
+  color: grey;
+}
+
+#nifty-container {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+}
+
+#fb-logo,
+#twitter-logo,
+#insta-logo {
+  width: 15px;
+}
+
+/* navbar  */
+
+.homepage-navbar {
+  /* height: 30px;   */
+  width: 100%;
+  background-color: #0087a8;
+  color: white;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  margin: auto;
+  margin-top: -2px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  /* border: 3px solid brown; */
+}
+
+.navbar-container {
+  height: 100%;
+  /* border: 3px solid black; */
+  background-color: #0087a8;
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 10px;
+  /* position: fixed;   */
+  /* top: 0; */
+  /* z-index: 30; */
+}
+
+#dash-logo {
+  float: left;
+  padding-top: 5px;
+  /* border: 2px solid yellow; */
+  border-right: 4px solid white;
+  padding-right: 2px;
+  cursor: pointer;
+}
+
+#navbar-childs {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+#navbar-childs > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar-childs li {
+  display: inline-block;
+  padding: 0px 15px 6px 16px;
+  cursor: pointer;
+}
+
+#new-newsletter-superscript {
+  /* display: grid; */
+  /* grid-template-rows: repeat(2); */
+  background-color: #f9c346;
+  /* height: 25px; */
+  font-size: 10px;
+  margin: auto;
+  /* margin-top: 3px; */
+  /* padding-top: 0px; */
+  /* padding-bottom: 10px;     */
+}
+
+#superscript-container {
+  padding: 2px;
+  height: 100%;
+}
+
+#superscript-container > div:first-child {
+  color: rgb(255, 12, 12);
+  margin-top: 2px;
+}
+
+#superscript-container > div:last-child {
+  color: black;
+  margin-top: 2px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+#search-box {
+  /* border: 2px solid red; */
+  /* padding-left: 9%; */
+  margin: auto;
+}
+
+#search-box > span {
+  cursor: pointer;
+}
+
+#section {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 20px;
+  /* background-color: #e05465; */
+}
+
+footer {
+  position: relative;
+  height: 20rem;
+  background-color: #333;
+}
+
+#inbrief {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f6f6f6;
+  /* border: 2px solid blue; */
+}
+
+#inbrief-parent-container {
+  width: 100%;
+  border-bottom: 2px solid #0087a8;
+  /* border: 2px solid yellowgreen; */
+  background-color: #f6f6f6;
+}
+
+#inbrief > div:first-child {
+  color: #0087a8;
+  font-weight: bold;
+}
+
+#inbrief > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.submenu {
+  display: none;
+}
+
+#navbar-childs > li:hover .submenu {
+  display: block;
+  position: absolute;
+  width: 150px;
+  /* height: auto; */
+  background-color: #0087a8;
+  /* background-color: #025a72; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: 10px; */
+  margin: auto;
+  margin-top: 10px;
+  margin-left: -17px;
+  /* transition: 0.3s; */
+}
+
+#navbar-childs > li:hover .submenu > ul {
+  list-style: none;
+  background-color: #0087a8;
+  /* border: 2px solid yellow; */
+  /* transform:translateY(0); */
+}
+
+#navbar-childs > li:hover .submenu > ul > li {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  /* transition: 3s; */
+  /* border: 2px solid red; */
+}
+
+#navbar-childs > li:hover .submenu > ul > li:hover {
+  background-color: #0a758f;
+}
+
+.submenu > ul {
+  transition: transform 3s;
+}
+
+.submenu-search {
+  display: none;
+}
+
+#search-box:hover .submenu-search {
+  display: block;
+  position: absolute;
+  /* width: 500px; */
+  margin: auto;
+  margin-top: 1px;
+  margin-left: -350px;
+  display: flex;
+  border: 4px solid #0087a8;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#search-box:hover .submenu-search > input {
+  /* display: block; */
+  width: 300px;
+  font-size: 17px;
+  padding: 10px;
+  border: none;
+  outline: 1px solid #0087a8;
+}
+
+#search-box:hover .submenu-search > #search-button {
+  width: 100px;
+  padding: 20px;
+  background-color: white;
+  border: none;
+  color: #0087a8;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newLogo-active {
+  /* background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vestian.com%2Fus%2Fimages%2Fdh_logo.png&f=1&nofb=1"); */
+  /* width: 20px; */
+  /* margin-left: -20px; */
+  width: 200px;
+}
+
+#modifiednav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 50px;
+}
+
+#newdh {
+  width: 100px;
+}
+
+/* only for scrolling purpose */
+
+/* #search-box{
+        padding-left: 0px;
+    } */
+
+/* karnataka  */
+
+/* main content starts  */
+
+#page-path-parent {
+  margin: auto;
+  margin-top: 30px;
+  width: 1200px;
+  /* border: 2px solid black; */
+}
+
+#page-path,
+#karnataka-flex {
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  /* padding: 20px; */
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+#page-path {
+  font-size: 13px;
+  /* gap: 10px; */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#page-path > p:first-child {
+  color: #0a758f;
+  cursor: pointer;
+}
+
+#karnataka-flex > p {
+  padding: 20px;
+  gap: 10px;
+  cursor: pointer;
+  /* border: 1px solid green; */
+}
+
+#karnataka-flex > #green-block {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #68a923;
+  color: white;
+  padding-right: 40px;
+}
+
+#karnataka-flex > .all-caps {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.all-caps{
+  cursor: pointer;
+}
+
+/*-------------------- top stories main ---------------- */
+
+#top-stories-karnataka-parent {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #eff6f4;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+#top-stories-karnataka {
+  margin: auto;
+  /* padding-top: 10px; */
+  width: 1200px;
+  /* border: 2px solid green; */
+}
+
+#top-stories-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: center;
+  /* border: 2px solid brown; */
+}
+
+#top-stories-title > div:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#top-stories-title > div:last-child {
+  font-size: 15px;
+  color: #0087a8;
+}
+
+#news-container-karnataka {
+  margin: auto;
+  margin-top: 20px;
+  width: 1200px;
+  display: grid;
+  padding: 5px;
+  gap: 30px;
+  /* border: 2px solid brown; */
+  background-color: whitesmoke;
+}
+
+#topstories-flex-1 {
+  /* width: 800px; */
+  height: 300px;
+  display: grid;
+  grid-template-columns: 33% 33%;
+  gap: 30px;
+  /* border: 2px solid grey; */
+}
+
+#topstories-flex-1 > div {
+  /* border: 1px solid black; */
+  width: 350px;
+}
+
+#only-image-news-item > img {
+  width: 348px;
+  height: 290px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border: none;
+  /* height: 350px; */
+}
+
+#news-block-3-rows-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 85px);
+  gap: 10px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#news-block-3-rows-1 > div > img {
+  width: 95px;
+  height: 80px;
+}
+
+#news-block-3-rows-1 > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+#topstories-flex-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  height: 300px;
+  gap: 30px;
+  /* border: 2px solid black; */
+}
+
+#topstories-flex-2 > div {
+  /* border: 1px solid black; */
+  width: 350px;
+}
+
+#news-block-3-rows-2 {
+  display: grid;
+  grid-template-rows: repeat(2, 150px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#news-block-3-rows-2 > div > img {
+  width: 180px;
+  height: 120px;
+}
+
+#news-block-3-rows-2 > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#news-block-free-rows > div > img {
+  width: 95px;
+  height: 80px;
+}
+
+
+#news-block-free-rows > div  {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+#news-block-free-rows {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#news-block-3-rows-3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 85px);
+  gap: 10px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#news-block-3-rows-3 > div > img {
+  width: 95px;
+  height: 80px;
+}
+
+#news-block-3-rows-3 > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.cursorp {
+  cursor: pointer;
+}
+
+.cursorp:hover{
+  color: brown;
+  text-decoration: underline;
+}
+
+.likewise > h4 {
+  cursor: pointer;
+}
+
+.politics{
+  margin: auto;
+  width: 1200px;
+  /* margin-top: 500px; */
+}
+
+.politics > div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.politics > div > img {
+  width: 200px;
+}
+
+.politics > div > h3 {
+  margin-top: 10px;
+}
+
+.politics > div > p {
+  margin-top: 10px;
+}
+
+
+
+.small-line{
+  width: 25px;
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #68a923;
+}
+
+
+/*
+ #news-container-karnataka > #onlyimagecard{
+    width: 400px;
+    height: 400px;
+ }
+
+ #onlyimagecard > img{
+   width: 400px;
+   height:400px;
+ }
+
+ #news-container-karnataka > #newsmiddleelements {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: repeat(3, 120px);
+ }
+
+
+
+ #middlenewscard > img{
+   width: 150px;
+ }
+
+ 
+*/
+
+/* -------------------media queries---------- */
+
+
+
+@media all and (min-width: 751px) and (max-width: 1150px) {
+  #homepage-header,
+  #inbrief {
+    display: none;
+  }
+
+  .homepage-navbar{
+    /* display: none; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 10px;
+  }
+
+  .homepage-navbar > #modifiednav{
+    display: none;
+  }
+
+  .homepage-navbar > .navbar-container > div{
+    display: none;
+  }
+
+  .homepage-navbar > .navbar-container > ul{
+    display: none;
+  }
+
+  .homepage-navbar > .navbar-responsive{
+    /* border: 2px solid brown; */
+    display: block;
+    /* position: fixed; */
+    width: 100%;
+    /* top: 0; */
+  }
+
+
+  .homepage-navbar > .navbar-responsive {
+    display: flex;
+  }
+
+  #search-box:hover .submenu-search > input {
+    /* display: block; */
+    width: 100px;
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  #search-box:hover .submenu-search > #search-button {
+    width: 80px;
+    /* padding: 15px; */
+    font-size: 10px;
+  }
+
+  #search-box:hover .submenu-search {
+    margin-left: -150px;
+    border: 2px solid #0087a8;
+  }
+
+  #news-container-karnataka, #news-container-karnataka-1{
+    width: 100%;
+    margin: auto;
+  }
+
+  #topstories-flex-1 {
+    /* width: 800px; */
+    width: 100%;
+    margin: auto;
+
+     display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto; 
+    /* display: flex; */
+    text-align: center;
+    gap: 10px;
+    /* border: 2px solid grey; */
+  }
+
+  #topstories-flex-2{
+    width: 100%;
+    /* display: grid; */
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #top-stories-karnataka {
+  
+    width: 100%;
+    /* border: 2px solid green; */
+  }
+
+  #only-image-news-item > img {
+    width: 100%;
+    margin: auto;
+  }
+
+  #topstories-flex-1 > div {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+  }
+
+  #topstories-flex-2{
+    height: 800px;
+  }
+
+  #topstories-flex-2 > div > div >img{
+    width: 50px;
+  }
+  #topstories-flex-2 > div {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+  }
+
+  #page-path-parent {
+    width: 100%;
+    /* border: 2px solid black; */
+  }
+
+  #karnataka-flex{
+    display: grid;
+  }
+
+
+
+
+  #container-of-news{
+    padding: 20px;
+    width: 100%;
+    /* border: 2px solid brown; */
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #container-of-news > div > img, #container-of-news > div > p {
+    text-align: center;
+    border: 2px solid green;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  #container-of-news > div > h1{
+    width: 100%;
+  }
+
+  
+  #container-of-news{
+    padding: 10px;
+  }
+
+  #newsCard{
+    width: 100%;
+ 
+  }
+
+
+  #section{
+    padding: 15px;
+  }
+}
+
+
+
+
+/* ----------------small screeenn--------------- */
+
+@media all and (min-width: 100px) and (max-width: 750px) {
+
+  #container-of-news{
+    padding: 20px;
+    width: 100%;
+    /* border: 2px solid brown; */
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #container-of-news > div > img, #container-of-news > div > p {
+    text-align: center;
+    border: 2px solid green;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  #container-of-news > div > h1{
+    width: 100%;
+  }
+
+  
+  #container-of-news{
+    padding: 10px;
+  }
+
+  #newsCard{
+    width: 100%;
+ 
+  }
+
+  #homepage-header,
+  #inbrief {
+    display: none;
+  }
+
+  #section{
+    padding: 5px;
+  }
+
+  .homepage-navbar{
+    /* display: none; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 10px;
+  }
+
+  .homepage-navbar > #modifiednav{
+    display: none;
+  }
+
+  .homepage-navbar > .navbar-container > div{
+    display: none;
+  }
+
+  .homepage-navbar > .navbar-container > ul{
+    display: none;
+  }
+
+  .homepage-navbar > .navbar-responsive{
+    /* border: 2px solid brown; */
+    display: block;
+    /* position: fixed; */
+    width: 100%;
+    /* top: 0; */
+  }
+
+
+  .homepage-navbar > .navbar-responsive {
+    display: grid;
+    gap: 20px;
+  }
+
+  #search-box:hover .submenu-search > input {
+    /* display: block; */
+    width: 100px;
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  #search-box:hover .submenu-search > #search-button {
+    width: 80px;
+    /* padding: 15px; */
+    font-size: 10px;
+  }
+
+  #search-box:hover .submenu-search {
+    margin-left: -50px;
+    border: 2px solid #0087a8;
+  }
+
+  .navbar-responsive > #superscript-container{
+   width: 200px;
+   text-align: center; 
+  }
+
+  .navbar-responsive > #dh-logo-res > img{
+    width: 150px;
+  }
+
+
+
+  
+
+  #news-container-karnataka, #news-container-karnataka-1{
+    width: 100%;
+    margin: auto;
+  }
+
+  
+  #topstories-flex-1 {
+    /* width: 800px; */
+    width: 100%;
+    margin: auto;
+
+     display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto; 
+    /* display: flex; */
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 300px;
+    /* border: 2px solid grey; */
+  }
+
+  #topstories-flex-2{
+    width: 100%;
+    /* display: grid; */
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #top-stories-karnataka {
+  
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 2px solid green; */
+  }
+
+  #only-image-news-item > img {
+    width: 100%;
+    margin: auto;
+  }
+
+  #topstories-flex-1 > div {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+  }
+
+  #topstories-flex-2{
+    height: 1000px;
+    margin: auto;
+  }
+
+  #topstories-flex-2 > div > div >img{
+    width: 50px;
+
+  }
+  #topstories-flex-2 > div {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  #page-path-parent {
+    width: 100%;
+    /* border: 2px solid black; */
+  }
+
+  #karnataka-flex{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+ 
+}
+
+
+/* --------- responsive navbar------------------ */
+
+
+.navbar-responsive {
+  width: 100%;
+  border: 2px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+
+.navbar-responsive > #superscript-container{
+  margin: auto;
+  /* border: 2px solid brown; */
+  background-color: #f9c346;
+  padding: 10px;
+
+}
+
+.navbar-responsive > #search-box{
+  margin: auto;
+  /* border: 2px solid brown; */
+}
+
+
+.navbar-responsive > #dh-logo-res{
+  margin: auto;
+  /* border: 2px solid blue; */
+}
+
+.navbar-responsive > #dh-logo-res > img{
+  /* border: 2px solid brown; */
+  height: 50px;
+}
+
