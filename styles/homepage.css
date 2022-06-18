@@ -1,0 +1,324 @@
+*{
+    font-family: "Source Sans Pro", sans-serif;
+}
+.hr{
+    width: 30px;
+    height: 10px;
+    background-color: teal;
+    border: none;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.whole1, .whole2{
+    background-color: rgba(101,162,147,.1);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.home1{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto; */
+    margin: auto;
+    width: 80%;
+    place-items: center;
+    gap: 20px;
+    grid-template-areas: 
+        'a b c'
+        'd e f'
+    ;
+}
+#container-1 , #container-2, #container-3, #container-4, #container-5, #container-6, #container-7, #container-8,#container-9{
+    border: none;
+    /* margin: auto; */
+    background-color: transparent;
+}
+#container-1, #container-18{
+    grid-area: a;
+    justify-self: start;
+    align-self: flex-start;
+}
+#container-2, #container-19{
+    grid-area: b;
+    justify-self: center;
+    align-self: flex-start;
+}
+#container-3, #container-20{
+    width: 100%;
+    grid-area: c;
+    justify-self: end;
+    align-self: flex-start;
+}
+#container-4, #container-21{
+    grid-area: d;
+    justify-self: start;
+    align-self: flex-end;
+}
+#container-5, #container-22{
+    grid-area: e;
+    justify-self: center;
+    align-self: flex-end;
+}
+#container-6, #container-23{
+    grid-area: f;
+    justify-self: end;
+    align-self: flex-end;
+}
+#container-3 img{
+    width: 100%;
+}
+#container-1 , #container-18{
+    height: 265px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+#container-1:hover, #container-18:hover{
+    text-decoration: underline;
+}
+#container-1>p>a, #container-18>p>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+#container-4, #container-7, #container-21 , #container-16{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+}
+#container-4 img, #container-7 img, #container-21 img, #container-16 img{
+    width: 50%;
+}
+#container-7, #container-8, #container-16, #container-17{
+    width: 100%;
+}
+
+.newsDiv{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid silver;
+    gap: 10px;
+    align-items: center;
+    /* padding: 0px 5px 0px 5px; */
+    background-color: white;
+    /* cursor: pointer; */
+}
+.newsDiv img{
+    width: 25%;
+    cursor: pointer;
+}
+.navDiv img:hover{
+    opacity: .5;
+    background: rgb(255, 255, 255);
+}
+.textBox{
+    width: 70%;
+}
+.textBox a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.textBox a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+.home2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center; 
+    gap: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content-1{
+    width: 65%;
+}
+.content-2{
+    width: 25%;
+}
+.newsCont{
+    display: flex;
+    gap: 15px;
+}
+#container-7 .newsDiv, #container-8 .newsDiv, #container-9 .newsDiv{
+    background-color: #f6f6f6;
+}
+#container-8, #container-17{
+    display: flex;
+    flex-direction: column;
+}
+#container-8 img, #container-17 img{
+    width: 40%;
+}
+
+.home3{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    /* justify-content: center; */
+}
+.columns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.co1{
+    display: grid;
+    grid-template-areas: 
+    'big big big'
+    'a1 a2 a3'
+    ;
+    width: 85%;
+    gap: 15px;
+}
+.co2{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#bigNews, #bigNews1{
+    grid-area: big;
+}
+#bigNews .newsDiv a, #bigNews1 .newsDiv a{
+    font-size: 20px;
+}
+#bigNews img, #bigNews1 img{
+    width: 40%;
+}
+#smallNews1, #smallNews11{
+    grid-area: a1;
+}
+#smallNews1>.newsDiv, #smallNews2>.newsDiv , #smallNews3>.newsDiv, #smallNews11>.newsDiv, #smallNews12>.newsDiv , #smallNews13>.newsDiv{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    /* height: 270px; */
+}
+#smallNews1 img, #smallNews2 img, #smallNews3 img, #smallNews11 img, #smallNews12 img, #smallNews13 img{
+    width: 100%;
+}
+#smallNews2 , #smallNews12{
+    grid-area: a2;
+}
+#smallNews3, #smallNews13{
+    grid-area: a3;
+}
+#bangView{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: -10px; */
+}
+#container-14 .newsDiv, #container-15 .newsDiv{
+    display: flex;
+    flex-direction: column;
+}
+#container-14 img, #container-15 img{
+    width: 100%;
+}
+.topNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.topNews h3{
+    margin-top: 10px;
+}
+.whole3{
+    width: 100%;
+    background: white;
+    margin: auto;
+}
+
+@media all and (min-width: 751px) and (max-width: 1150px) {
+    .home1, .home2, .home3{
+        width: 95%;
+    }
+    .whole1, .whole2, .whole3{
+        width: 100% ;
+    }
+    .home1{
+        grid-template-areas: 
+        'a b'
+        'c d'
+        'e f'
+    ;
+    }
+    .home2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+    .content-1, .content-2, .content-2 iframe{
+        width: 100%;
+    }
+    .columns{
+        flex-direction: column;
+    }
+    .co1{
+        width: 100%;
+    }
+    .co2{
+        flex-direction: row;
+        width: 100%;
+    }
+}
+@media all and (min-width: 100px) and (max-width: 750px) {
+    .whole1, .whole2, .whole3{
+        width: 100% ;
+    }
+    .home1{
+        grid-template-areas: 
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f'
+    ;
+    }
+    .home2{
+        flex-direction: column;
+    }
+    .content-1, .content-2, .content-2 iframe{
+        width: 100%;
+    }
+    .newsCont{
+        flex-direction: column;
+    }
+    #bangView>p>a{
+        display: none;
+    }
+    .columns{
+        flex-direction: column;
+        width: 100%;
+    }
+    .co1{
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+        'big big'
+        'a1 a2'
+         'a3 .'
+        ;
+    }
+    .co2{
+        flex-direction: row;
+        width: 100%;
+    }
+}

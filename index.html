@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link rel="stylesheet" href="styles/navbarKA.css" />
+    <link rel="stylesheet" href="styles/footer.css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  />
+  </head>
+  <body onload="livedate()">
+    <!-- header start -->
+
+    <header id="homepage-header"></header>
+
+    <!-- header end -->
+
+    <!-- navbar start -->
+
+    <nav class="homepage-navbar">
+      <div class="navbar-container"></div>
+
+      <div class="navbar-responsive">
+        <div id="superscript-container">
+          <div>NEWS</div>
+          <div>Newsletters</div>
+        </div>
+        <div id="dh-logo-res">
+          <img
+            src="https://www.haptik.ai/hubfs/News%20and%20Media%20Section/Deccan%20herald-logo.png"
+            alt=""
+          />
+        </div>
+        <div id="search-box">
+          <span class="material-symbols-outlined"> search </span>
+          <div class="submenu-search">
+            <input type="text" placeholder="What are you looking for?" />
+            <button id="search-button">Search</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="inbrief"></div>
+    <!-- navbar end -->
+
+
+    <div class="whole1">
+      <div class="home1">
+          <div id="container-1"></div>
+          <div id="container-2"></div>
+          <div id="container-3"></div>
+          <div id="container-4"></div>
+          <div id="container-5"></div>
+          <div id="container-6"></div>
+      </div>
+  </div>
+
+  <div class="whole3">
+      <div class="home2">
+          <div class="content-1">
+              <div class="topNews">
+                  <hr class="hr">
+                  <h3>Top News</h3>
+              </div>
+              <div class="newsCont">
+                  <div id="container-7"></div>
+                  <div id="container-8"></div>
+              </div>
+          </div>
+          <div class="content-2">
+              <div class="topNews">
+                  <hr class="hr">
+                  <h3>Dh Videos</h3>
+              </div>
+              <div class="dhVid">
+                  <iframe width="auto" height="250" src="https://www.youtube.com/embed/bmtKhX5M-lI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div> 
+          </div>
+      </div>
+  </div>
+
+  <div class="whole2">
+      <div class="home3">
+          <hr class="hr">
+          <div id="bangView">
+              <h3>Bangluru</h3>
+              <p><a href="#">View All</a></p>
+          </div>
+
+          <div class="columns">
+              <div class="co1">
+                  <div id="bigNews"></div>
+                  <div id="smallNews1"></div>
+                  <div id="smallNews2"></div>
+                  <div id="smallNews3"></div>
+              </div>
+              <div class="co2">
+                  <div id="container-14"></div>
+                  <div id="container-15"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+  <div class="whole3">
+      <div class="home2">
+          <div class="content-1">
+              <div class="topNews">
+                  <hr class="hr">
+                  <h3>World News</h3>
+              </div>
+              <div class="newsCont">
+                  <div id="container-16"></div>
+                  <div id="container-17"></div>
+              </div>
+          </div>
+          <div class="content-2">
+              <div class="topNews">
+                  <hr class="hr">
+                  <h3>Dh Videos</h3>
+              </div>
+              <div class="dhVid">
+                  <iframe width="auto" height="250" src="https://www.youtube.com/embed/bmtKhX5M-lI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div> 
+          </div>
+      </div>
+  </div>
+  
+  <div class="whole1">
+      <div class="home1">
+          <div id="container-18"></div>
+          <div id="container-19"></div>
+          <div id="container-20"></div>
+          <div id="container-21"></div>
+          <div id="container-22"></div>
+          <div id="container-23"></div>
+      </div>
+  </div>
+
+  <footer></footer>
+  </body>
+  <script type="module">
+      // navbar
+      
+      import { header, navbar, inbrief } from "./components/navbar.js";
+      
+      var homepageheader = document.getElementById("homepage-header");
+      homepageheader.innerHTML = header();
+      
+      var homenavbar = document.querySelector(".navbar-container");
+      homenavbar.innerHTML = navbar();
+      
+      var homeinbrief = document.getElementById("inbrief");
+      homeinbrief.innerHTML = inbrief();
+
+      //Navbar ends
+      
+      
+      import { getData, append } from "./components/script.js";
+      
+      let container1 = document.querySelector("#container-1");
+      let container2 = document.querySelector("#container-2");
+      let container3 = document.querySelector("#container-3");
+      let container4 = document.querySelector("#container-4");
+      let container5 = document.querySelector("#container-5");
+      let container6 = document.querySelector("#container-6");
+
+      let container7 = document.querySelector("#container-7");
+      let container8 = document.querySelector("#container-8");
+      let container9 = document.querySelector("#dhVid");
+      
+      let container10 = document.querySelector("#bigNews");
+      let container11 = document.querySelector("#smallNews1");
+      let container12 = document.querySelector("#smallNews2");
+      let container13 = document.querySelector("#smallNews3");
+      let container14 = document.querySelector("#container-14");
+      let container15 = document.querySelector("#container-15");
+      
+      let container16 = document.querySelector("#container-16");
+      let container17 = document.querySelector("#container-17");
+      let container18 = document.querySelector("#container-18");
+      let container19 = document.querySelector("#container-19");
+      let container20 = document.querySelector("#container-20");
+      let container21 = document.querySelector("#container-21");
+      let container22 = document.querySelector("#container-22");
+      let container23 = document.querySelector("#container-23");
+      
+      let url = `https://newsapi.org/v2/top-headlines?country=us&pageSize=30&apiKey=f047a0224744446b9eb5ed3a9ae0f475`;
+      
+      let data = await getData(url);
+      // console.log(data)
+      
+      append(data, container1);
+      append(data, container2);
+      append(data, container3);
+      append(data, container4);
+      append(data, container5);
+      append(data, container6);
+      append(data, container7);
+      append(data, container8);
+      // append(data, container9)
+      append(data, container10);
+      append(data, container11);
+      append(data, container12);
+      append(data, container13);
+      append(data, container14);
+      append(data, container15);
+      
+      append(data, container16);
+      append(data, container17);
+      append(data, container18);
+      append(data, container19);
+      append(data, container20);
+      append(data, container21);
+      append(data, container22);
+      append(data, container23);
+      
+      
+      import footer from "./components/footer.js"
+      
+      document.querySelector("footer").innerHTML = footer
+      </script>
+    <script src="mains.js"></script>
+</html>
+<script src="./scripts/scrollnlivedate.js"></script>

@@ -20,6 +20,11 @@
   /* border: 2px solid black; */
 }
 
+.all-caps a{
+  text-decoration: none;
+  color: black;
+}
+
 #deccan-herald-header-logo {
   width: 150px;
   height: 150px;

@@ -1,7 +1,7 @@
 function header() {
   return `
         <!-- deccan herald logo left one -->
-        <a href="../index.html">
+        <a href="./index.html">
             <img src="https://www.deccanherald.com/sites/dh/files/article_images/2020/04/28/Deccan%20Herald%20logo-1588037746.png" alt="" id="deccan-herald-header-logo">
         </a>
 
@@ -61,7 +61,7 @@ function navbar() {
         </div>
 
         <ul id="navbar-childs">
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="">Bengaluru</a> 
                 <div class="submenu">
                     <ul>
@@ -150,7 +150,7 @@ function navbar() {
                 </div>
             </li>
 
-            <li><a href="">Videos</a> 
+            <li><a href="./youtubePage.html">Videos</a> 
                 <div class="submenu">
                     <ul>
                         <li>Latest Video</li>
@@ -176,7 +176,7 @@ function navbar() {
             <li><a href="">Brandspot</a> 
             </li>
 
-            <li id="new-newsletter-superscript"><a href="">
+            <li id="new-newsletter-superscript"><a href="./newLetter.html">
                 <div id="superscript-container">
                 <div>NEWS</div>
                 <div>Newsletters</div>
