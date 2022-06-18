@@ -1,9 +1,5 @@
-let getData = async(url) => {
-
-    let res = await fetch(url)
-    let data = await res.json()
-
-    return data.articles
+let getData = () => {
+    return data
 }
 
 let append = (data, container) => {
