@@ -204,6 +204,7 @@ footer {
   width: 1200px;
   display: flex;
   gap: 40px;
+  font-size: 12px;
   justify-content: center;
   align-items: center;
   text-align: center;
