@@ -34,7 +34,7 @@ function footer(){
                 <div id="b2">
                     <div>
                         <p style="border-bottom: 1px solid rgb(150, 181, 181) ;font-weight: bolder">
-                            <a target="_blank" href="" >KARNATAKA</a>
+                            <a target="_blank" href="./karnataka.html" >KARNATAKA</a>
                         </p>
                     </div>
                     <div class="li2" style="list-style-type:none">
@@ -147,7 +147,7 @@ function footer(){
                                 <a target="_blank" href="">Photos</a>
                             </li>
                             <li>
-                                <a target="_blank" href="">Videos</a>
+                                <a target="_blank" href="./video.html">Videos</a>
                             </li>
                             
                         
@@ -397,7 +397,7 @@ function footer(){
                    
                     
                     <li  >
-                        <a target="_blank" href="">Privacy Policy</a>
+                        <a target="_blank" href="https://www.deccanherald.com/privacy-policy">Privacy Policy</a>
                         
                     </li>
                     <li>
@@ -441,10 +441,20 @@ function footer(){
               -->
              
              
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-youtube"></i>
+                <i class="fa fa-facebook" aria-hidden="true">
+                <a target="_blank" href="https://www.facebook.com/deccanherald/">  </a>
+                </i>
+                <i class="fa fa-twitter" aria-hidden="true">
+                <a target="_blank" href="https://twitter.com/deccanherald">  </a>
+                </i>
+                <i class="fa fa-instagram">
+                <a target="_blank" href="https://www.instagram.com/deccanherald/">  </a>
+
+                </i>
+                <i class="fa fa-youtube" >
+                <a target="_blank" href="https://www.youtube.com/channel/UCHDXXHPrz-1GVbK_qk82hBQ">  </a>
+                
+                </i>
           
               </div>
         </div>
