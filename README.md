@@ -4,10 +4,10 @@ Manners. Project developed for a region Karnataka where it particularly focused 
 Technology
 News Api, HTML, CSS, JS
 
-Team Members
-Aaryan Sinha
-Sarthak
-Sanket
-Aftab
-Swapnil
-Rakesh D B
+Team Members :
+Aaryan Sinha,
+Sarthak,
+Sanket,
+Aftab,
+Swapnil,
+Rakesh D B.
