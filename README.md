@@ -1,7 +1,7 @@
-# UNIT-3-CONSTRUCT-WEEK-Project
-Project is an clone of Deccan Herald shows the all category news in an short and crips 
-Manners. Project developed for a region Karnataka where it particularly focused news of that region. 
-Technology
+Deccan Herald 
+Project Link: https://enchanting-kitten-cc52c6.netlify.app/
+
+Deccan Herald is an Indian English language daily newspaper published in the Indian state of Karnataka, it brings breaking news, today's Live News on Sports, Business, Fitness, Entertainment, and Opinions from leading columnists
 News Api, HTML, CSS, JS
 
 Team Members :
