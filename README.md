@@ -29,4 +29,4 @@ A glimpse of our website
 
 # <h3> Landing Page : </h3> 
 
-<img src="C:\Users\ritik\Downloads\Landing Page.png">
+<img src="file:///C:/Users/ritik/Downloads/Landing%20Page.png">
