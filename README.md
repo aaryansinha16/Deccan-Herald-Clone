@@ -23,7 +23,7 @@ This is an e-newspaper published in the Indian state of Karnataka, it brings bre
 - Swapnil
 - Rakesh D B
 
-# screenshot:
+# Screenshot:
 
 A glimpse of our website
 
