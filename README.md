@@ -29,4 +29,18 @@ A glimpse of our website
 
 # <h3> Landing Page : </h3> 
 
-<img src="file:///C:/Users/ritik/Downloads/Landing%20Page.png">
+<img src="http://127.0.0.1:5500/index.html">
+
+
+# <h3> Videos Page : </h3> 
+
+
+# <h3> Sidebar : </h3> 
+
+
+
+# <h3> SignUp Page : </h3> 
+
+
+
+# <h3> Footer Section : </h3> 
