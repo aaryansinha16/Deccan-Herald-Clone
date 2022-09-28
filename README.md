@@ -29,7 +29,7 @@ A glimpse of our website
 
 # <h3> Landing Page : </h3> 
 
-<img src="http://127.0.0.1:5500/index.html/">
+<img src="http://127.0.0.1:5500/index.html">
 
 
 # <h3> Videos Page : </h3> 
