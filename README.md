@@ -29,7 +29,7 @@ A glimpse of our website
 
 # <h3> Landing Page : </h3> 
 
-<img src="http://127.0.0.1:5500/index.html">
+https://user-images.githubusercontent.com/101391604/192852775-2686df2e-f2c0-4cc2-9ce6-21d1f12791c6.png
 
 
 # <h3> Videos Page : </h3> 
