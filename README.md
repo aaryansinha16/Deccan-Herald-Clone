@@ -22,3 +22,10 @@ This is an e-newspaper published in the Indian state of Karnataka, it brings bre
 - Aftab
 - Swapnil
 - Rakesh D B
+
+# screenshot:
+
+A glimpse of our website
+
+
+# <h3>Landing Page</h3>: 
