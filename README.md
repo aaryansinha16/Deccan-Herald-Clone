@@ -1,5 +1,7 @@
 # Deccan Herald- Clone
 Project Link: https://enchanting-kitten-cc52c6.netlify.app/
+
+
 This is an e-newspaper published in the Indian state of Karnataka, it brings breaking news, and today's Live News on Sports, Business, Fitness, and Entertainment.
 
 # Features:
@@ -8,12 +10,12 @@ This is an e-newspaper published in the Indian state of Karnataka, it brings bre
 - Navbar for easy navigation between pages.
 
 # Tech-stack:
--HTML 
--CSS 
--JavaScript
+-HTML.
+-CSS.
+-JavaScript.
 
 
-Team Members :
+#Team Members :
 Aaryan Sinha,
 Sarthak,
 Sanket,
