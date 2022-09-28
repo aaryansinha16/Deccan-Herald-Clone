@@ -27,20 +27,19 @@ This is an e-newspaper published in the Indian state of Karnataka, it brings bre
 
 A glimpse of our website
 
-# <h3> Landing Page : </h3> 
-
-<img src="https://user-images.githubusercontent.com/101391604/192852775-2686df2e-f2c0-4cc2-9ce6-21d1f12791c6.png"/>
-
-
-# <h3> Videos Page : </h3> 
+###  Landing Page : 
+The landing page where user can see different section which is related to news.
+<img src="https://user-images.githubusercontent.com/101391604/192854244-1da570d5-9c89-4f16-94e3-400c8aa96c02.png"/>
 
 
-# <h3> Sidebar : </h3> 
+###  Videos Page : 
+Video page which shows different news videos which is related to karnataka state.
+<img src=""/>
 
 
+###  Sidebar : 
+Using Sidebar user can directly enter to the different section of the website.  
+<img src=""/>
 
-# <h3> SignUp Page : </h3> 
-
-
-
-# <h3> Footer Section : </h3> 
+### Footer Section : 
+There is footer page where the user see terms and condition and connected to our social sites.
