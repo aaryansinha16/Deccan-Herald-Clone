@@ -17,7 +17,7 @@ This is an e-newspaper published in the Indian state of Karnataka, it brings bre
 
 # Team Members:
 - Aaryan Sinha
-- Sarthak
+- Sarthak Singh
 - Sanket
 - Aftab
 - Swapnil
